@@ -1,0 +1,106 @@
+
+/* External CSS is overwritten by internal CSS and inline CSS 
+
+CSS syntax
+
+selector {property: value;}
+who {what: how;}
+*/
+
+body {
+    background-color: #F9F7F7; 
+}
+
+hr {
+    background-color: ;
+    width: 25%;
+    border-style: dotted none none;
+    height: 0;
+    border-width: 10px;
+    border-color: #DBE2EF;
+}
+
+h1 {
+    color: #3F72AF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+ color: #3F72AF;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 {
+ color: #3F72AF;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #112D4E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-style: groove;
+}
+
+/* 
+    #F9F7F7
+    #DBE2EF
+    #3F72AF
+    #112D4E
+*/
+
+/********************CLASS SELECTORS*****************************/
+.heading_table {
+    background-color: bisque;
+}
+
+.info_headers {
+    text-decoration: underline;
+}
+
+.info_headers_td {
+    border: 1px inset #333;
+    padding: 2px;
+}
+
+.info_headers_tr {
+    border: 1px inset #333;
+    padding-right: 10px;
+}
+
+.info_headers_tr_headings {
+    text-align: center;
+}
+
+.school {
+    font-weight: bold;
+}
+
+.specific {
+    font-style: italic;
+}
+
+/*********************ID SELECTORS*******************************/
+/* Can only use ID on one tag for any given webpage */
+#my_name_heading {
+    color: #3F72AF;
+    text-shadow:  1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+    transition : all 2.0s ease-out;
+    
+}
+
+#skill_table {
+    border: 4px solid #333;
+    padding: 2px;
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+#my_name_heading:hover {
+    font-size: 50px;
+
+}
